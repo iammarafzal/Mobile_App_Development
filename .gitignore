@@ -1,0 +1,54 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE and editor metadata
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Dart and Flutter generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+.widget_preview/
+pubspec_overrides.yaml
+
+# Flutter platform-generated files
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Android generated and machine-local files
+**/android/.gradle/
+**/android/local.properties
+**/android/gradle/wrapper/gradle-wrapper.jar
+**/android/gradlew
+**/android/gradlew.bat
+**/android/app/src/main/java/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# iOS and macOS dependency/build output
+**/ios/Pods/
+**/ios/.symlinks/
+**/macos/Pods/
+
+# Logs, temporary files, and crash symbols
+*.log
+*.swp
+*.tmp
+app.*.symbols
+app.*.map.json
