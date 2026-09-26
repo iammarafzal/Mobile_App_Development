@@ -80,7 +80,7 @@ class GestureDetectorWidgetState extends State<GestureDetectorWidget> {
             ),
           ),
         ),
-        Text("$_SelectedColor", style: TextStyle(color: _color)),
+        Text(_SelectedColor, style: TextStyle(color: _color)),
       ]
     );
   }
