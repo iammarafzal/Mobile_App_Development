@@ -20,6 +20,9 @@ coverage/
 .widget_preview/
 pubspec_overrides.yaml
 
+# Node.js dependencies
+**/node_modules/
+
 # Flutter platform-generated files
 **/ios/Flutter/.last_build_id
 **/ios/Flutter/Generated.xcconfig
@@ -33,10 +36,6 @@ pubspec_overrides.yaml
 # Android generated and machine-local files
 **/android/.gradle/
 **/android/local.properties
-**/android/gradle/wrapper/gradle-wrapper.jar
-**/android/gradlew
-**/android/gradlew.bat
-**/android/app/src/main/java/
 **/android/app/debug/
 **/android/app/profile/
 **/android/app/release/
